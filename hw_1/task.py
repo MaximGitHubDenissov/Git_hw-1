@@ -78,7 +78,7 @@ def division_is_valid():
     m = f.input_is_valid('Введите ширину шоколадки: ')
     k = f.input_is_valid('Введите количество долек: ')
     if k == n or k == m:
-        print('Да, можно!')
+        print('Yes')
     else: print('Нет, нельзя!')
 
 division_is_valid()
